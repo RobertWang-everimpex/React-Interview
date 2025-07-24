@@ -5,9 +5,7 @@ This repository contains two React apps for technical interviews:
 ## 1. Bug Fix Challenge (`interview-bugfix-app/`)
 **Time limit: 10 minutes**
 
-A React app with 2 intentional bugs for candidates to find and fix:
-- useEffect infinite loop bug
-- Missing React key prop bug
+A React app with intentional bugs for candidates to find and fix.
 
 ### How to run:
 ```bash
@@ -16,9 +14,6 @@ npm install
 npm start
 ```
 
-### What candidates should find:
-- Console showing infinite "Fetching user data" logs
-- React warning about missing keys when adding todos
 
 ## 2. Coding Challenge (`interview-coding-challenge/`)
 **Time limit: 10 minutes**
@@ -45,7 +40,7 @@ npm start
 ## Interview Usage
 
 ### For Interviewers:
-1. **Bug Fix**: Let candidate explore and fix bugs (solution hints in console/React warnings)
+1. **Bug Fix**: Let candidate explore and identify bugs through debugging
 2. **Coding**: Watch candidate implement timer logic with React hooks
 3. **Evaluation**: Focus on React concepts, debugging skills, and code quality
 
